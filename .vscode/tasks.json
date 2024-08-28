@@ -1,0 +1,16 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Run Swift",
+        "type": "shell",
+        "command": "docker run --rm -v ${workspaceFolder}:/app -w /app swift swift run",
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "problemMatcher": []
+      }
+    ]
+  }
+  

@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:BOONGTOL_SWIFT}/MyiOSApp",
+            "name": "Debug MyiOSApp (MyiOSApp)",
+            "program": "${workspaceFolder:BOONGTOL_SWIFT}/MyiOSApp/.build/debug/MyiOSApp",
+            "preLaunchTask": "swift: Build Debug MyiOSApp (MyiOSApp)"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:BOONGTOL_SWIFT}/MyiOSApp",
+            "name": "Release MyiOSApp (MyiOSApp)",
+            "program": "${workspaceFolder:BOONGTOL_SWIFT}/MyiOSApp/.build/release/MyiOSApp",
+            "preLaunchTask": "swift: Build Release MyiOSApp (MyiOSApp)"
+        }
+    ]
+}
